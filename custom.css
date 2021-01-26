@@ -1,0 +1,130 @@
+
+body
+{
+	border: 3px solid;
+}
+#login
+{
+	width: 50%;
+	margin: auto;
+  
+}
+#containerFluid/*.................*/
+{
+  background-image: url('images/library.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+/**/
+#displays/*.....home page.....*/
+{
+  padding: 30px;
+
+}
+#openHOURS
+{
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  margin: auto;
+}
+#slideshow
+{
+ height:100vh;
+}
+.carousel-caption {
+    top: 100px;
+    bottom: auto;
+}
+/*-------sidebar--------*/
+#navlist
+{
+	background-color: #343a40;
+
+}
+#navlist ul
+{
+	padding: 0px;
+}
+
+#navlist ul li
+{
+	font-size: 17px;
+	list-style-type: none; 
+	width: 100%;
+	box-sizing: border-box;
+}
+.sublist
+{
+	padding-left: 35px;
+	font-size: 15px;
+}
+#navlist ul li a
+{
+	position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;    
+    color: #fff;
+    text-align: inherit;
+    display: block;
+	text-decoration:none;
+}
+#navlist ul li a:hover
+{
+	color: green;
+}
+/*================DISPLAY OF BOOKS=======================*/
+#displaybook
+{
+	padding: 1%;
+}
+/*================COUNTER OF BOOKS=======================*/
+#shiva
+{
+  width: 50px;
+    height: 50px;
+    background: green;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+  float:left;
+  /*margin:5px;*/
+}
+.count
+{
+  line-height: 50px;
+  color:white;
+  margin-left:15px;
+  font-size:25px;
+}
+
+.adding
+{
+  width: 50%;
+  padding: 3%;
+  margin: auto;
+}
+
+
+#issuebookFORM
+{
+  width: 70%;
+  margin-left: 20%;
+  padding-left:  3%;
+  padding: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+/**/
+#displayissue
+{
+  background-color: #FFF;
+}
